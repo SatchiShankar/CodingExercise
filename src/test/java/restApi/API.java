@@ -85,7 +85,7 @@ public class API {
 		request.body(requestParams.toString());
 		Response response = request.post();
 		response.prettyPrint();
-		System.out.println("Testing GIT");
+		System.out.println("Testing GIT"s);
 		System.out.println("Post Status Code : "+response.statusCode());
 		System.out.println("Post Status : "+response.statusLine());
 		return response.jsonPath().get("data.id");
