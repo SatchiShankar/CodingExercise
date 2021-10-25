@@ -88,7 +88,6 @@ public class API {
 		System.out.println("Post Status Code : "+response.statusCode());
 		System.out.println("Post Status : "+response.statusLine());
 		return response.jsonPath().get("data.id");
-
 	}
 
 	public void putRequest(int id, String name,String email) {
