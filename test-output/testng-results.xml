@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26184" started-at="2021-06-25T16:01:05 EDT" finished-at="2021-06-25T16:01:31 EDT">
+  <suite name="Default suite" duration-ms="2637" started-at="2021-07-04T20:27:36 EDT" finished-at="2021-07-04T20:27:39 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26184" started-at="2021-06-25T16:01:05 EDT" finished-at="2021-06-25T16:01:31 EDT">
+    <test name="Default test" duration-ms="2637" started-at="2021-07-04T20:27:36 EDT" finished-at="2021-07-04T20:27:39 EDT">
       <class name="com.Amazon.Test.RestAssuredTest">
-        <test-method status="PASS" signature="getEmployeeDetails()[pri:0, instance:com.Amazon.Test.RestAssuredTest@45820e51]" name="getEmployeeDetails" duration-ms="3066" started-at="2021-06-25T16:01:27 EDT" finished-at="2021-06-25T16:01:30 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Amazon.Test.RestAssuredTest@38bc8ab5]" name="setUp" is-config="true" duration-ms="9" started-at="2021-07-04T20:27:36 EDT" finished-at="2021-07-04T20:27:36 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getEmployeeDetails -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Amazon.Test.RestAssuredTest@45820e51]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-06-25T16:01:30 EDT" finished-at="2021-06-25T16:01:30 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validateDeleteEmployeeData()[pri:0, instance:com.Amazon.Test.RestAssuredTest@45820e51]" name="validateDeleteEmployeeData" duration-ms="745" started-at="2021-06-25T16:01:30 EDT" finished-at="2021-06-25T16:01:31 EDT">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateDeleteEmployeeData()[pri:0, instance:com.Amazon.Test.RestAssuredTest@38bc8ab5]" name="validateDeleteEmployeeData" duration-ms="2606" started-at="2021-07-04T20:27:36 EDT" finished-at="2021-07-04T20:27:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDeleteEmployeeData -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Amazon.Test.RestAssuredTest@45820e51]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-06-25T16:01:31 EDT" finished-at="2021-06-25T16:01:31 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Amazon.Test.RestAssuredTest@38bc8ab5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-04T20:27:39 EDT" finished-at="2021-07-04T20:27:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.Amazon.Test.RestAssuredTest -->
-      <class name="com.Amazon.Test.ValidatePrice">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Amazon.Test.ValidatePrice@6b57696f]" name="setUp" is-config="true" duration-ms="8" started-at="2021-06-25T16:01:05 EDT" finished-at="2021-06-25T16:01:05 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateItemPrice()[pri:0, instance:com.Amazon.Test.ValidatePrice@6b57696f]" name="validateItemPrice" duration-ms="21611" started-at="2021-06-25T16:01:05 EDT" finished-at="2021-06-25T16:01:27 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateItemPrice -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Amazon.Test.ValidatePrice@6b57696f]" name="afterMethod" is-config="true" duration-ms="716" started-at="2021-06-25T16:01:27 EDT" finished-at="2021-06-25T16:01:27 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.Amazon.Test.ValidatePrice -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
