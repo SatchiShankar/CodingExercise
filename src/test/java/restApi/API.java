@@ -85,6 +85,7 @@ public class API {
 		request.body(requestParams.toString());
 		Response response = request.post();
 		response.prettyPrint();
+		System.out.println("Rebase success");
 		System.out.println("Post Status Code : "+response.statusCode());
 		System.out.println("Post Status : "+response.statusLine());
 		return response.jsonPath().get("data.id");
